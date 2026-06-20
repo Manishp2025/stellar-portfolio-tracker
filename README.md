@@ -48,6 +48,14 @@ LumenSight is a next-generation web3 portfolio tracker designed exclusively for 
 
 4. **Open the App:** Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
+## 🌍 Deployment & Security
+
+Deploying this Next.js application is best done through [Vercel](https://vercel.com). It is **completely safe and the industry standard** to log into Vercel using your GitHub account.
+
+- **OAuth Security (No Passwords Shared):** When you click "Continue with GitHub", Vercel never sees your GitHub password. Instead, GitHub just gives Vercel a secure digital token that proves who you are.
+- **Trusted Platform:** Vercel is the creator of Next.js and is trusted by thousands of enterprise companies worldwide.
+- **Revocable Access:** You can revoke Vercel's access to your GitHub account at any time with a single click in your GitHub settings.
+
 ## 🏆 Level 7 Founder Belt Checklist
 
 This repository includes all necessary documentation and proof to fulfill the **Level 7 Founder Belt** requirements:
