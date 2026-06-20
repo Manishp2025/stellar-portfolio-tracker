@@ -1,0 +1,1 @@
+export default function MockComponent5() { return <div>Component 5</div>; }
