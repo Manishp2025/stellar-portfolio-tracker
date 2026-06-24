@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'LumenSight | Premium Stellar Portfolio',
-  description: 'The next-generation portfolio tracker for the Stellar network. Connect your Freighter wallet and manage your assets.',
+  description: 'The next-generation portfolio tracker for the Stellar network.',
 }
 
 export default function RootLayout({ children }) {
@@ -14,7 +14,10 @@ export default function RootLayout({ children }) {
         
         <div className="container">
           <nav>
-            <a href="/" className="logo">LumenSight</a>
+            <a href="/" className="nav-logo-container">
+              <img src="/assets/logo.png" alt="LumenSight Logo" className="logo-icon" />
+              <span className="logo">LumenSight</span>
+            </a>
             <div className="nav-links">
               <a href="/dashboard" className="nav-link">Dashboard</a>
               <a href="https://stellar.org" target="_blank" rel="noreferrer" className="nav-link">Stellar.org</a>
